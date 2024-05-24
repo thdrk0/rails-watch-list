@@ -8,3 +8,13 @@
 legend ~ div.form-check:first-of-type {
   clear: left;
 }
+
+a {
+  color: white; /* Changez cette couleur selon vos préférences */
+  text-decoration: none; /* Optionnel : pour enlever le soulignement des liens */
+}
+
+/* Couleur des liens lorsqu'on passe la souris dessus */
+a:hover {
+  color: red; /* Changez cette couleur selon vos préférences */
+}

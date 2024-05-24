@@ -1,8 +1,21 @@
-<h1>Les lists</h1>
-<%= link_to "Add a new list ", new_list_path  %>
+<div class="container-test">
+  <div class="row justify-content-center align-items-center" style="height: 100vh;">
+    <div class="col-6">
+      <h1 class="text-center text-dark">Save any kind of movie</h1>
+    </div>
+  </div>
+</div>
 
-<ul>
-  <% @lists.each do |list| %>
-    <li><%= link_to list.name, list_path(list.id)  %></li>
-  <% end %>
-</ul>
+<div class="container">
+  <div class="d-flex align-items-center justify-content-between p-3">
+  <h3>My lists</h3>
+  <%= link_to "Add a new list ", new_list_path  %>
+  </div>
+  <div class="row">
+    <% @lists.each do |list| %>
+      <div class="col-4 flat bg-light rounded border mb-3 p-3 small shadow justify-content-center align-items-center">
+        <%= link_to list.name, list_path(list.id)  %>
+      </div>
+    <% end %>
+    </div>
+</div>

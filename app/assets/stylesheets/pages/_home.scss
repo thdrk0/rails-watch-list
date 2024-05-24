@@ -1,1 +1,14 @@
 // Specific CSS for your home-page
+.container-test {
+  color: white;
+  background: url("https://media.gqmagazine.fr/photos/603e6a8da9360b0585bcbc6a/16:9/w_1920,c_limit/108387402");
+  background-size: cover;
+}
+
+.col-4 {
+  color: white;
+  background: url("https://if-csl.s3.eu-central-1.amazonaws.com/files/cinema_1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
